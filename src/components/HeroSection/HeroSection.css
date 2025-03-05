@@ -1,0 +1,103 @@
+
+.video-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1210px) {
+  .video-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.burnaupdate-image {
+  max-width: 550px;
+  object-fit: cover;
+}
+.video-image {
+  max-width: 650px;
+}
+.image-title {
+  max-width: 400px;
+  aspect-ratio: 5/3;
+  object-fit: cover;
+}
+.react-player {
+  width: 100%;
+}
+.IoMdPlay {
+  width: 35px;
+  height: 35px;
+  top: 45%;
+  left: 45%;
+  border: 4px solid var(--white);
+  border-radius: 50%;
+}
+@media (max-width: 980px) {
+  .burnaupdate-image {
+    width: 100% !important;
+    max-width: 980px !important;
+  }
+  .react-player {
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  .burnaupdate-image {
+    width: 100%;
+    max-width: 650px !important;
+  }
+  .image-title {
+    max-width: 350px;
+    object-fit: cover;
+  }
+  .react-player {
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .Itoldthem-image {
+    /* width: 100%; */
+    max-width: 330px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .tech-image {
+    max-width: 380px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 475px) {
+  .burnaupdate-image {
+    width: 100%;
+    max-width: 450px !important;
+  }
+  .image-title {
+    max-width: 210px;
+    height: 140px;
+    object-fit: cover;
+  }
+  .react-player {
+    width: 100%;
+    object-fit: cover;
+  }
+  .Itoldthem-image {
+    /* width: 100%; */
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .tech-image {
+    max-width: 180px;
+    height: 140px;
+    object-fit: cover;
+  }
+}
+.IoCloseOutline {
+  left: 75%;
+  bottom: 80%;
+}
+
