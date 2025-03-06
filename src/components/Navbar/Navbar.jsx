@@ -35,7 +35,7 @@ const Navbar = () => {
               </a>
             </li>
             <Link to={"/tour"} className=" hover:text-gray-300 cursor-pointer">
-              Show
+              Shows
             </Link>
             <li className=" hover:text-gray-400 cursor-pointer">
               {" "}
@@ -66,7 +66,7 @@ const Navbar = () => {
           </a>
         </li>
         <Link to={"/tour"} className=" hover:text-gray-300 cursor-pointer">
-          Show
+          Shows
         </Link>
         <li className=" hover:text-gray-400 cursor-pointer">
           {" "}

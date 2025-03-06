@@ -66,29 +66,29 @@ const Footer = () => {
               <FaArrowRightLong className="custom-text-gold  py-2 text-5xl" />
             </div>
           </div>
-          <div className="text-white text-xs underline ">TERMS</div>
+          <div className="text-white footer underline ">TERMS</div>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row text-center md:justify-between pt-5">
-        <p className="text-white text-sm cursor-pointer">
+      <div className="flex flex-col md:flex-row text-center md:justify-between pt-5 footer">
+        <p className="text-white  cursor-pointer">
           &copy; 2025 Atlantic Records{" "}
         </p>
         <p className="text-white text-sm cursor-pointer">
           <a href="https://privacy.wmg.com/atlantic/privacy-policy"></a>Privacy
           Policy
         </p>
-        <p className="text-white text-sm cursor-pointer">
+        <p className="text-white  cursor-pointer">
           <a href="https://www.atlanticrecords.com/terms-of-use">
             Terms of use
           </a>
         </p>
-        <p className="text-white text-sm cursor-pointer">
+        <p className="text-white  cursor-pointer">
           <a href="https://www.wminewmedia.com/cookies-policy/?ot=7f920412-fbb4-4cfb-8787-415e89eeec47&url=www.onaspaceship.com">
             Cookies Policy
           </a>
         </p>
-        <p className="text-white text-sm cursor-pointer">Cookies Settings</p>
+        <p className="text-white  cursor-pointer">Cookies Settings</p>
       </div>
     </div>
   );
