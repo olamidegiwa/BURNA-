@@ -74,7 +74,7 @@ const Footer = () => {
         <p className="text-white  cursor-pointer">
           &copy; 2025 Atlantic Records{" "}
         </p>
-        <p className="text-white text-sm cursor-pointer">
+        <p className="text-white  cursor-pointer">
           <a href="https://privacy.wmg.com/atlantic/privacy-policy"></a>Privacy
           Policy
         </p>
