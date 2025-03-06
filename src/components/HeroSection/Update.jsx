@@ -76,18 +76,18 @@ const Update = () => {
 
       {selectedVideo && (
         <div className="fixed inset-0 flex items-center justify-center z-50  bg-opacity-70 overflow-hidden">
-          <div className=" relative w-full max-w-[350px] md:max-w-[550px] lg:max-w-[750px] contents object-cover">
+          <div className=" relative w-full max-w-[350px] md:max-w-[550px] lg:max-w-[700px] contents object-cover">
             <div className=" absolute IoCloseOutline ">
               <IoCloseOutline
                 onClick={() => setSelectedVideo(null)}
-                className="text-white cursor-pointer text-4xl lg:text-5xl "
+                className="custom-text-gold cursor-pointer text-4xl lg:text-5xl "
               />
             </div>
             <ReactPlayer
               controls={true}
               config={{ file: { attributes: { preload: "metadata" } } }}
               url={selectedVideo}
-              className="w-full min-w-[300px] min-h-[250px]  md:max-w-[500px] md:max-h-[350px] xl:max-w-[700px] xl:max-h-[400px] px-2"
+              className="w-full min-w-[300px] min-h-[250px]  md:max-w-[500px] md:max-h-[350px] xl:max-w-[700px] xl:max-h-[400px] mx-2 border-2 border-amber-700"
             />
           </div>
         </div>
