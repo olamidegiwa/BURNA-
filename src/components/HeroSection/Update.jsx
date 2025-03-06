@@ -10,11 +10,7 @@ const Update = () => {
     <div className="py-3 video-container ">
       <div className="flex flex-col gap-3 mb-10">
         <div className="w-full xl:w-[600px]">
-          <img
-            src={burnaupdate}
-            alt="image"
-            className="burnaupdate-image"
-          />
+          <img src={burnaupdate} alt="image" className="burnaupdate-image" />
         </div>
         <div>
           <div className="flex flex-col gap-1">
@@ -80,7 +76,7 @@ const Update = () => {
 
       {selectedVideo && (
         <div className="fixed inset-0 flex items-center justify-center z-50  bg-opacity-70 overflow-hidden">
-          <div className=" relative react-playe  w-full max-w-[350px] md:max-w-[550px] lg:max-w-[750px] contents object-cover">
+          <div className=" relative w-full max-w-[350px] md:max-w-[550px] lg:max-w-[750px] contents object-cover">
             <div className=" absolute IoCloseOutline ">
               <IoCloseOutline
                 onClick={() => setSelectedVideo(null)}
@@ -89,9 +85,9 @@ const Update = () => {
             </div>
             <ReactPlayer
               controls={true}
-              preload="none"
+              config={{ file: { attributes: { preload: "metadata" } } }}
               url={selectedVideo}
-              className="react-playe w-100 max-w-[350px]  md:max-w-[500px] lg:max-w-[700px] max-h-[50vh] "
+              className="w-full min-w-[300px] min-h-[250px]  md:max-w-[500px] md:max-h-[350px] xl:max-w-[700px] xl:max-h-[400px] px-2"
             />
           </div>
         </div>

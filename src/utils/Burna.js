@@ -5,7 +5,7 @@ export const Videos = [
       "https://www.onaspaceship.com/sites/g/files/g2000019656/files/update.jpg",
     description: "UPDATE UPDATE,",
     title: "Update Video Out Now",
-    url: "https://www.youtube.com/watch?v=qR8-uQ5LixE",
+    url: "https://www.youtube.com/watch?v=qR8-uQ5LixE/video.mp4",
   },
   {
     id: 2,
@@ -13,15 +13,15 @@ export const Videos = [
       "https://www.onaspaceship.com/sites/g/files/g2000019656/files/2025-01/Bundle_By_Bundle.JPG",
     description: "BUNDLE BY BUNDLE,",
     title: "Bundle By Bundle Video Out Now",
-    url: "https://www.youtube.com/watch?v=MLLm8Okhllg",
+    url: "https://www.youtube.com/watch?v=MLLm8Okhllg/video.mp4",
   },
   {
-    id: 1,
+    id: 3,
     image:
       "https://www.onaspaceship.com/sites/g/files/g2000019656/files/2024-09/higher_r.jpg",
     description: "HIGHER,",
     title: "HIGHER Video Out Now",
-    url: "https://www.youtube.com/watch?v=eKzmRnetw-c",
+    url: "https://www.youtube.com/watch?v=eKzmRnetw-c/video.mp4",
   },
 ];
 export const MerchShop = [
@@ -33,7 +33,7 @@ export const MerchShop = [
     url: "https://burnaboy.lnk.to/ITTMag",
   },
   {
-    id: 1,
+    id: 2,
     image:
       "https://www.onaspaceship.com/sites/g/files/g2000019656/files/Group%203127%402x.png",
     description: "I Told Them… CD + T-shirt Fan Pack",
