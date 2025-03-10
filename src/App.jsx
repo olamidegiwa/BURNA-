@@ -6,6 +6,7 @@ import RootLayout from "./LayOut/RootLayout";
 import Error from "./pages/Error";
 import Preload from "./components/Preload";
 import ScrollToTop from "./components/ScrollToTop";
+import ItoldThem from "./pages/ItoldThem/ItoldThem";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,9 +22,11 @@ function App() {
       ) : (
         <BrowserRouter>
           <ScrollToTop />
+
           <Routes>
             <Route path="/" element={<RootLayout />} />
             <Route path="/tour" element={<Tour />} />
+            <Route path="/ItoldThem" element={<ItoldThem />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </BrowserRouter>

@@ -1,6 +1,7 @@
 import React from "react";
 import { MerchShop } from "../../utils/Burna";
 import { ItoldThem } from "../../utils/Burna";
+import { Link } from "react-router-dom";
 const Merch = () => {
   return (
     <div className="flex flex-col xl:flex-row place-content-between py-3 mb-10 gap-y-10">
@@ -57,9 +58,9 @@ const Merch = () => {
                 <div>
                   <h3 className="custom-text-gold">{data.description}</h3>
                   <p className="text-white text-sm">{data.details}</p>
-                  <a href={data.url} className="text-white link underline">
+                  <Link to={"/ItoldThem"} className="text-white link underline">
                     READ MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             );

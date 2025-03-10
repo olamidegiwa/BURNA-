@@ -12,7 +12,7 @@ import { FaSoundcloud } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="py-5 container mx-auto  overflow-hidden px-3">
+    <div className="py-5   overflow-hidden px-8">
       <div className="flex flex-col md:flex-row gap-x-32 gap-y-10  justify-center items-center lg:py-20 py-10">
         <div className="flex flex-col gap-4 ">
           <h3 className="text-3xl text-white ">
