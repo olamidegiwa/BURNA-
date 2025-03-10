@@ -14,11 +14,13 @@ const Navbar = () => {
           <span className="sm:h-[2px] sm:w-[36px]  h-[2px] w-[20px] bg-white"></span>
         </div>
         <div className="flex flex-col items-center gap-3">
-          <img
-            src={BurnaLogo}
-            alt="burnaImg"
-            className=" max-w-[160px] h-100 cursor-pointer"
-          />
+          <Link to={"/"}>
+            <img
+              src={BurnaLogo}
+              alt="burnaImg"
+              className=" max-w-[160px] h-100 cursor-pointer"
+            />
+          </Link>
           <ul className="custom-text-white md:flex hidden md:gap-20 gap-6 md:text-xl text-base">
             <li className=" hover:text-gray-400 cursor-pointer">
               <a target="_blank" href="https://burna.lnk.to/Music">
