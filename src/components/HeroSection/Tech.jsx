@@ -3,7 +3,7 @@ import outsiderImage from "../../assets/images/feature-3.jpg";
 import { Techs } from "../../utils/Burna";
 const Tech = () => {
   return (
-    <div className="py-5 mt-10 flex flex-col xl:flex-row justify-between border-b-2">
+    <div className="py-5 mt-10 flex flex-col xl:flex-row gap-y-10 justify-between border-b-2">
       <div className="max-w-[600px] md:w-full mb-4">
         <img src={outsiderImage} alt="image" />
         <div className="flex flex-col gap-2">
@@ -30,14 +30,14 @@ const Tech = () => {
             </p>
           ))}
         </div>
-        <div className="flex flex-col  gap-3">
+        <div className="flex flex-col  gap-10">
           {Techs.map((data) => {
             return (
-              <div key={data.id} className="flex gap-10">
+              <div key={data.id} className="flex gap-4 md:gap-10">
                 <img
                   src={data.image}
                   alt="image"
-                  className="max-w-[450px] max-h-[250px] tech-image"
+                  className="min-w-[150px] min-h-[120px] max-w-[450px] max-h-[250px] tech-image"
                 />
                 <div className="flex flex-col gap-2">
                   <h3 className="custom-text-gold">{data.details}</h3>

@@ -3,8 +3,8 @@ import { MerchShop } from "../../utils/Burna";
 import { ItoldThem } from "../../utils/Burna";
 const Merch = () => {
   return (
-    <div className="flex flex-col xl:flex-row place-content-between py-3 mb-10">
-      <div className="xl:max-w-[550px] md:w-100">
+    <div className="flex flex-col xl:flex-row place-content-between py-3 mb-10 gap-y-10">
+      <div className="xl:max-w-[550px] md:w-100 ">
         <div className="overflow-hidden whitespace-nowrap flex gap-2 items-center mb-2">
           {[...Array(20)].map((_, i) => (
             <p

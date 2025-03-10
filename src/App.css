@@ -47,3 +47,15 @@ ul {
 .footer {
   font-size: 9px;
 }
+
+.scroll-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 4%;
+  color: var(--gold) !important;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 1;
+}
+
