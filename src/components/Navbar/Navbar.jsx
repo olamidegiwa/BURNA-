@@ -6,7 +6,7 @@ import Popup from "../Popup";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto py-2 md:pb-6   sticky z-10 top-0 left-0  right-0 bg-black px-3 ">
+    <div className="md:container mx-auto py-2 md:pb-6   sticky z-10 top-0 left-0  right-0 bg-black px-3 ">
       <div className="flex place-content-between items-center ">
         <div className="flex flex-col md:gap-2 gap-1 cursor-pointer">
           <span className="sm:h-[2px] sm:w-[36px] h-[2px] w-[20px] bg-white"></span>

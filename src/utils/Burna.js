@@ -419,50 +419,80 @@ export const Gallery = [
   },
   {
     id: 54,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04448.jpg?itok=BeC7z0r5",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04448.jpg?itok=BeC7z0r5",
   },
   {
     id: 55,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04443.jpg?itok=WvJpRKeA",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04443.jpg?itok=WvJpRKeA",
   },
   {
     id: 56,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04420.jpg?itok=ryIYxXXY",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04420.jpg?itok=ryIYxXXY",
   },
   {
     id: 57,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04191.jpg?itok=S6QC9zeg",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04191.jpg?itok=S6QC9zeg",
   },
   {
     id: 58,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04094.jpg?itok=v2-91fYu",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04094.jpg?itok=v2-91fYu",
   },
   {
     id: 59,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04124.jpg?itok=KHd1-yht",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04124.jpg?itok=KHd1-yht",
   },
   {
     id: 60,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04063.jpg?itok=UaT-dwdv",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04063.jpg?itok=UaT-dwdv",
   },
   {
     id: 61,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03981.jpg?itok=8gW5nTC8",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03981.jpg?itok=8gW5nTC8",
   },
   {
     id: 62,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04003.jpg?itok=7rp2piXI",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC04003.jpg?itok=7rp2piXI",
   },
   {
     id: 63,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03973.jpg?itok=klBQ6akd",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03973.jpg?itok=klBQ6akd",
   },
   {
     id: 64,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03958.jpg?itok=LgAAqAsp",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03958.jpg?itok=LgAAqAsp",
   },
   {
     id: 65,
-    image: "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03938.jpg?itok=gzgdWd0l",
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03938.jpg?itok=gzgdWd0l",
+  },
+  {
+    id: 66,
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03880.jpg?itok=9BJrskhx",
+  },
+  {
+    id: 67,
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/styles/home_page_photo_345_345/public/DSC03683.jpg?itok=c8J_Vec7",
+  },
+];
+export const ImageVideo = [
+  {
+    id: 1,
+    image:
+      "https://www.onaspaceship.com/sites/g/files/g2000019656/files/artcleimage_1_0.jpg",
+    url: "https://www.youtube.com/watch?v=BlnzhvAmZ38&t=1s",
   },
 ];

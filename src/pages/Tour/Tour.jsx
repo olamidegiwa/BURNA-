@@ -172,7 +172,7 @@ const Tour = () => {
 
       <div className="w-100 flex flex-col xl:flex-row gap-x-2 gap text-white place-content-center  items-center privacy-policy pt-20 py-2 ">
         <p className="">&copy; 2025 ATLANTIC RECORDS</p>
-        <div className="flex gap-2 ">
+        <div className="flex gap-2  ">
           <a
             target="_blank"
             href="https://www.atlanticrecords.com/privacy-policy"

@@ -25,10 +25,14 @@ const Merch = () => {
                   alt="image"
                   className="w-full lg:max-w-[230px] lg:max-h-[230px]  sm:max-w-1/2"
                 />
-                <h3 className="custom-text-gold">{data.description}</h3>
-                <a href={data.url} className="text-white link underline">
-                  BUY NOW
-                </a>
+                <div className="flex flex-col py-2">
+                  <h5 className="custom-text-gold text-xs">
+                    {data.description}
+                  </h5>
+                  <a href={data.url} className="text-white link underline">
+                    BUY NOW
+                  </a>
+                </div>
               </div>
             );
           })}
@@ -40,7 +44,7 @@ const Merch = () => {
           {[...Array(20)].map((_, i) => (
             <p
               key={i}
-              className="animate-marquee text-2xl font-bold text-white inline-block"
+              className="animate-marquee text-3xl font-bold text-white inline-block"
             >
               I TOLD THEM POP UP
             </p>
