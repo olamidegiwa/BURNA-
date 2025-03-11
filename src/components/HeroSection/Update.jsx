@@ -54,7 +54,7 @@ const Update = () => {
                     alt="image"
                     className="image-title "
                   />
-                  <IoMdPlay className="absolute IoMdPlay text-white p-1 cursor-pointer" />
+                  <IoMdPlay className="absolute IoMdPlay top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white p-1 cursor-pointer" />
                 </div>
                 <div className="">
                   <h2 className="custom-text-gold lg:text-xl md:text-base font-bold">
