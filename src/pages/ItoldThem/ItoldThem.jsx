@@ -63,8 +63,8 @@ const ItoldThem = () => {
                         alt="image"
                         className="w-full cursor-pointer"
                       />
-                      <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2  cursor-pointer  border-2 rounded-full w-[40px]  h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[80px] xl:h-[80px]">
-                        <IoMdPlay className=" text-5xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />
+                      <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2  cursor-pointer  border-2 rounded-full w-[55px]  h-[55px]  xl:w-[80px] xl:h-[80px]">
+                        <IoMdPlay className=" text-5xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1 " />
                       </div>
                     </div>
                   )}
