@@ -9,7 +9,7 @@ import "../HeroSection/HeroSection.css";
 
 const Video = () => {
   return (
-    <div className=" md:container mx-auto py-5 md:pb-6 overflow-hidden justify-center items-center px-3 ">
+    <div className=" lg:container mx-auto py-5 md:pb-6 overflow-hidden justify-center items-center px-2 ">
       <Update />
       <Merch />
       <Features />

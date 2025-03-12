@@ -3,7 +3,7 @@ import { Gallery } from "../utils/Burna";
 
 const PhotoGallery = () => {
   return (
-    <div className="px-3 py-5">
+    <div className="py-5">
       <div className="overflow-hidden whitespace-nowrap flex gap-2 items-center border-b-2 mb-3 ">
         {[...Array(20)].map((_, i) => (
           <p

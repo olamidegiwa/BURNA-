@@ -493,6 +493,6 @@ export const ImageVideo = [
     id: 1,
     image:
       "https://www.onaspaceship.com/sites/g/files/g2000019656/files/artcleimage_1_0.jpg",
-    url: "https://www.youtube.com/watch?v=BlnzhvAmZ38&t=1s",
+    url: "https://www.youtube.com/watch?v=BlnzhvAmZ38&t=1s/video.mp4",
   },
 ];

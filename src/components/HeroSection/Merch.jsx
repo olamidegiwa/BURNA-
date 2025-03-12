@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Merch = () => {
   return (
     <div className="flex flex-col xl:flex-row place-content-between py-3 mb-10 gap-y-10">
-      <div className="xl:max-w-[550px] md:w-100 ">
+      <div className="xl:max-w-[500px] md:w-100 ">
         <div className="overflow-hidden whitespace-nowrap flex gap-2 items-center mb-2">
           {[...Array(20)].map((_, i) => (
             <p
@@ -39,12 +39,12 @@ const Merch = () => {
         </div>
       </div>
 
-      <div className="xl:max-w-[550px] md:w-100 ">
+      <div className="xl:max-w-[650px] md:w-100 ">
         <div className="overflow-hidden whitespace-nowrap flex gap-2 items-center border-b-2 ">
           {[...Array(20)].map((_, i) => (
             <p
               key={i}
-              className="animate-marquee text-3xl font-bold text-white inline-block"
+              className="animate-marquee text-2xl font-bold text-white inline-block"
             >
               I TOLD THEM POP UP
             </p>

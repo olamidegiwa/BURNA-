@@ -10,10 +10,10 @@ const ItoldThem = () => {
   const [playing, setPlaying] = useState(false);
   return (
     <div>
-      <div className=" md:container mx-auto py-5 overflow-hidden px-3">
-        <Navbar />
-        <div className="flex flex-col gap-y-5 xl:flex-row justify-between px-3 mb-10 ">
-          <div className="flex flex-col gap-3 w-full xl:max-w-[490px]">
+      <Navbar />
+      <div className=" lg:container mx-auto py-5 overflow-hidden px-2">
+        <div className="flex flex-col gap-y-5 xl:flex-row justify-between mb-10 ">
+          <div className="flex flex-col gap-3 w-full xl:max-w-[450px]">
             <h1 className="custom-text-gold text-2xl md:text-4xl xl:text-6xl">
               I TOLD THEM POP UP
             </h1>
@@ -31,7 +31,7 @@ const ItoldThem = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:max-w-[680px] ">
+          <div className="w-full xl:max-w-[700px] ">
             <div className="overflow-hidden whitespace-nowrap flex gap-2 items-center border-b-2 mb-3">
               {[...Array(20)].map((_, i) => (
                 <p
@@ -52,16 +52,17 @@ const ItoldThem = () => {
                     <ReactPlayer
                       controls
                       autoplay
+                      playing={true}
                       url={data.url}
                       width="100%"
                       height="100%"
                     />
                   ) : (
-                    <div onClick={() => setPlaying(true)} className="w-full">
+                    <div onClick={() => setPlaying(true)} className="w-full ">
                       <img
                         src={data.image}
                         alt="image"
-                        className="w-full cursor-pointer"
+                        className="w-full cursor-pointer "
                       />
                       <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2  cursor-pointer  border-2 rounded-full w-[55px]  h-[55px]  xl:w-[80px] xl:h-[80px]">
                         <IoMdPlay className=" text-5xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1 " />

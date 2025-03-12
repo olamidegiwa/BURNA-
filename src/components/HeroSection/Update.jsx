@@ -43,7 +43,7 @@ const Update = () => {
                   </p>
                 ))}
               </div>
-              <div className="video-image  flex gap-4 px-0 m-0">
+              <div className="video-image  flex gap-4 ">
                 <div
                   onClick={() => setSelectedVideo(video.url)}
                   className="relative"
@@ -76,18 +76,19 @@ const Update = () => {
 
       {selectedVideo && (
         <div className="fixed inset-0 flex items-center justify-center z-50  bg-opacity-70 overflow-hidden">
-          <div className=" relative w-full max-w-[350px] md:max-w-[550px] lg:max-w-[700px] contents object-cover">
-            <div className=" absolute IoCloseOutline ">
+          <div className=" w-full max-w-[350px] md:max-w-[550px] lg:max-w-[700px]  contents object-cover">
+            <div className="  fixed  right-0 top-20 xl:top-10 xl:left-3/4">
               <IoCloseOutline
                 onClick={() => setSelectedVideo(null)}
-                className="custom-text-gold cursor-pointer text-4xl lg:text-5xl "
+                className="custom-text-gold text-white cursor-pointer text-5xl   "
               />
             </div>
             <ReactPlayer
               controls={true}
+              playing={true}
               config={{ file: { attributes: { preload: "metadata" } } }}
               url={selectedVideo}
-              className="w-full min-w-[300px] min-h-[250px]  md:max-w-[500px] md:max-h-[350px] xl:max-w-[700px] xl:max-h-[400px] mx-2 border-2 border-amber-700"
+              className="min-w-[150px] md:max-w-[500px]  xl:max-w-[700px] h-auto mx-2 border-2 border-amber-700"
             />
           </div>
         </div>
